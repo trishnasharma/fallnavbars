@@ -1,0 +1,112 @@
+/* CSS files add styling rules to your content */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+svg {
+  padding-left:1rem;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.header-container {
+  display: flex;
+  flex-direction:row;
+  background-color: #F0F8FF;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  align-items: center;
+  font-family: Aleo, sans-serif;
+}
+
+.header-container > div {
+  width: 50%;
+}
+
+
+.title-page {
+  margin-left: 2rem;
+  /*margin-right: 25%;*/
+}
+
+.navigation-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.home {
+  margin-left: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  border-color:#CEE8FF;
+  background-color: #CEE8FF;
+  padding: 7px;
+}
+
+.aboutus {
+  margin-left: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.peersupport {
+  margin-left: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.commmembers {
+  margin-left: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.members {
+  margin-left: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.contactus {
+  margin-left: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+body {
+  font-family: areo, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
