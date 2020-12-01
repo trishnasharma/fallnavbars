@@ -1,11 +1,14 @@
-/* CSS files add styling rules to your content */
-body {
-  margin: 0 !important;
-  padding: 0 !important;
-}
+.header-container {
+  display: flex;
+  flex-direction:row;
+  background-color: #F0F8FF;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  align-items: center;
+  font-family: Aleo, sans-serif;
 
-svg {
-  padding-left:1rem;
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -18,37 +21,20 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
 }
 
-.header-container {
-  display: flex;
-  flex-direction:row;
-  background-color: #F0F8FF;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  align-items: center;
-  font-family: Aleo, sans-serif;
-}
-
-.header-container > div {
-  width: 50%;
-}
-
-
 .title-page {
   margin-left: 2rem;
-  /*margin-right: 25%;*/
 }
 
 .navigation-container {
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
+  
 }
 
 
 .home {
-  margin-left: 2rem;
+  margin-left: 4rem;
   border: 0.1rem solid black;
   border-radius: 25px;
   border-color:#CEE8FF;
@@ -57,7 +43,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .aboutus {
-  margin-left: 2rem;
+  margin-left: 1rem;
   border: 0.1rem solid black;
   border-radius: 25px;
   background-color: #F9F9F9;
@@ -66,7 +52,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .peersupport {
-  margin-left: 2rem;
+  margin-left: 1rem;
   border: 0.1rem solid black;
   border-radius: 25px;
   background-color: #F9F9F9;
@@ -75,7 +61,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .commmembers {
-  margin-left: 2rem;
+  margin-left: 1rem;
   border: 0.1rem solid black;
   border-radius: 25px;
   background-color: #F9F9F9;
@@ -84,7 +70,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .members {
-  margin-left: 2rem;
+  margin-left: 1rem;
   border: 0.1rem solid black;
   border-radius: 25px;
   background-color: #F9F9F9;
@@ -93,7 +79,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .contactus {
-  margin-left: 2rem;
+  margin-left: 1rem;
   border: 0.1rem solid black;
   border-radius: 25px;
   background-color: #F9F9F9;
@@ -101,12 +87,29 @@ button, input[type="submit"], input[type="reset"] {
   padding: 7px;
 }
 
-body {
-  font-family: areo, sans-serif;
-  margin: 2em;
+.events {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.resources {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.keyterms {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
 }
