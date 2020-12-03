@@ -6,148 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>ANC</title>
-
+    
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body style="background-color:#F0F8FF">
+    <link rel="stylesheet" href="/style.css">
+   
+  </head>  
+  <body>
+    <body style="background-color:#F0F8FF">
     <header>
-      <div class="header-container">
-        <svg
-          width="100"
-          height="100"
-          viewBox="0 0 253 251"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M90.655 38.5003C73.455 49.7003 73.8217 64.5003 76.155 70.5003C81.355 66.5005 84.9883 63.5002 86.155 62.5C87.755 54.5 92.8217 50.5 95.155 49.5L93.155 58.5C103.955 51.3 120.655 50.1667 127.655 50.5V33.0003H118.655C106.655 30.2003 94.9883 35.5003 90.655 38.5003Z"
-            fill="#FF0000"
-            stroke="#FF0000"
-          />
-          <path
-            d="M164.655 38.2913C181.855 49.4913 181.988 65.5 179.655 71.5C174.455 67.5002 170.822 64.0002 169.655 63C168.055 55 161.988 50 159.655 49L161.655 58.5C150.855 51.3 134.655 50.1667 127.655 50.5V32.7913H136.655C148.655 29.9913 160.322 35.2913 164.655 38.2913Z"
-            fill="#FF0000"
-            stroke="#FF0000"
-          />
-          <rect x="109.655" width="36" height="36" rx="18" fill="#FF0000" />
-          <path
-            d="M90.655 212C73.455 200.8 73.8217 186 76.155 180C81.355 184 84.9883 187 86.155 188C87.755 196 92.8217 200 95.155 201L93.155 192C103.955 199.2 120.655 200.333 127.655 200V217.5H118.655C106.655 220.3 94.9883 215 90.655 212Z"
-            fill="#00B050"
-            stroke="#00B050"
-          />
-          <path
-            d="M164.655 212.209C181.855 201.009 181.988 185 179.655 179C174.455 183 170.822 186.5 169.655 187.5C168.055 195.5 161.988 200.5 159.655 201.5L161.655 192C150.855 199.2 134.655 200.333 127.655 200V217.709H136.655C148.655 220.509 160.322 215.209 164.655 212.209Z"
-            fill="#00B050"
-            stroke="#00B050"
-          />
-          <rect
-            width="36"
-            height="36"
-            rx="18"
-            transform="matrix(1 0 0 -1 109.655 250.5)"
-            fill="#00B050"
-          />
-          <path
-            d="M214 162.064C202.8 179.264 188 178.897 182 176.564C186 171.364 189 167.73 190 166.564C198 164.964 202 159.897 203 157.564L194 159.564C201.2 148.764 202.333 132.064 202 125.064H219.5V134.064C222.3 146.064 217 157.73 214 162.064Z"
-            fill="#7030A0"
-            stroke="#7030A0"
-          />
-          <path
-            d="M214.209 88.0637C203.009 70.8637 187 70.7304 181 73.0637C185 78.2637 188.5 81.897 189.5 83.0637C197.5 84.6637 202.5 90.7304 203.5 93.0637L194 91.0637C201.2 101.864 202.333 118.064 202 125.064H219.709V116.064C222.509 104.064 217.209 92.397 214.209 88.0637Z"
-            fill="#7030A0"
-            stroke="#7030A0"
-          />
-          <rect
-            width="36"
-            height="36"
-            rx="18"
-            transform="matrix(0 -1 -1 0 252.5 143.064)"
-            fill="#7030A0"
-          />
-          <path
-            d="M38.5003 164.064C49.7003 181.264 64.5003 180.897 70.5003 178.564C66.5005 173.364 63.5002 169.73 62.5 168.564C54.5 166.964 50.5 161.897 49.5 159.564L58.5 161.564C51.3 150.764 50.1667 134.064 50.5 127.064H33.0003V136.064C30.2003 148.064 35.5003 159.73 38.5003 164.064Z"
-            fill="#0070C0"
-            stroke="#0070C0"
-          />
-          <path
-            d="M38.2913 90.0637C49.4913 72.8637 65.5 72.7304 71.5 75.0637C67.5002 80.2637 64.0002 83.897 63 85.0637C55 86.6637 50 92.7304 49 95.0637L58.5 93.0637C51.3 103.864 50.1667 120.064 50.5 127.064H32.7913V118.064C29.9913 106.064 35.2913 94.397 38.2913 90.0637Z"
-            fill="#0070C0"
-            stroke="#0070C0"
-          />
-          <rect
-            y="145.064"
-            width="36"
-            height="36"
-            rx="18"
-            transform="rotate(-90 0 145.064)"
-            fill="#0070C0"
-          />
-          <rect x="52" y="49" width="152" height="152" rx="76" fill="#E3A419" />
-          <rect x="53" y="50" width="150" height="150" rx="75" fill="black" />
-          <path
-            d="M99.0242 156.546C112.024 158.046 126.024 144.046 129.024 135.546L130.524 126.546L126.024 113.546C117.224 95.9455 104.024 92.5456 98.5242 93.0457C82.5242 92.2457 74.5242 104.379 72.5242 110.546C67.7242 121.746 70.8575 134.879 73.0242 140.046C78.2242 153.246 92.5242 156.546 99.0242 156.546Z"
-            fill="#FFC000"
-            stroke="#FFC000"
-          />
-          <path
-            d="M154.5 93.1116C141.5 91.6113 127.5 105.611 124.5 114.112L123 123.111L127.5 136.112C136.3 153.712 149.5 157.112 155 156.612C171 157.412 179 145.278 181 139.112C185.8 127.912 182.667 114.778 180.5 109.612C175.3 96.4116 161 93.1116 154.5 93.1116Z"
-            fill="#FFC000"
-            stroke="#FFC000"
-          />
-          <path
-            d="M158 146.072C144.4 147.672 136.333 135.406 134 129.072C142.8 109.072 153 105.406 157 106.072C170.2 105.672 173.5 118.239 173.5 124.572C174 131.072 171.6 144.472 158 146.072Z"
-            fill="black"
-            stroke="black"
-          />
-          <path
-            d="M97.5601 105.143C111.16 103.543 119.227 115.809 121.56 122.143C112.76 142.142 102.56 145.809 98.5601 145.143C85.3601 145.543 82.0601 132.976 82.0601 126.643C81.5601 120.143 83.9601 106.743 97.5601 105.143Z"
-            fill="black"
-            stroke="black"
-          />
-        </svg>
-        <div class="title-page">
-          Autism and Neurodiversity Community
+      <div class = "header-container">
+        <div class ="first-logo">
+          <img src="https://cdn.glitch.com/6aab9b19-93d8-4f13-81aa-86c9ad6e4b48%2FBig%20logo.png?v=1606968862049" width="10%">
         </div>
+        <div class="title-page">
+            Autism and Neurodiversity Community
+          </div>
 
         <div class="navigation-container">
-          <form action="https://www.google.com/">
-            <button type="submit" class="home">Home</button>
-          </form>
-          <form action="https://www.google.com/">
-            <button type="submit" class="aboutus">About Us</button>
-          </form>
-          <form action="https://www.google.com/">
-            <button type="submit" class="events">Events</button>
-          </form>
-          <form action="https://www.google.com/">
-            <button type="submit" class="resources">Resources</button>
-          </form>
-          <form action="https://www.google.com/">
-            <button type="submit" class="peersupport">Peer Support</button>
-          </form>
-          <form action="https://www.google.com/">
-          <button type="submit" class="commmembers">
-            Community Members
-            </button></form>
-          
-          <form action="https://www.google.com/">
-          <button type="submit" class="contactus">
-            Contact Us
-            </button></form>
-          <form action="https://www.google.com/">
-            <button type="submit" class="keyterms">Key Terms</button>
-          </form>
-          </div>
+            <form action="https://www.google.com/">
+              <button type="submit" class="home">Home</button>
+            </form>
+            <form action="https://www.google.com/">
+              <button type="submit" class="aboutus">About Us</button>
+            </form>
+            <form action="https://www.google.com/">
+              <button type="submit" class="events">Events</button>
+            </form>
+            <form action="https://www.google.com/">
+              <button type="submit" class="resources">Resources</button>
+            </form>
+            <form action="https://www.google.com/">
+              <button type="submit" class="peersupport">Peer Support</button>
+            </form>
+            <form action="https://www.google.com/">
+            <button type="submit" class="commmembers">
+              Community Members
+              </button></form>
+
+            <form action="https://www.google.com/">
+            <button type="submit" class="contactus">
+              Contact Us
+              </button></form>
+            <form action="https://www.google.com/">
+              <button type="submit" class="keyterms">Key Terms</button>
+            </form>
+            </div>
         </div>
-    </header>
-  <body>
-   
+      </header>
+    </body>
   </body>
 </html>

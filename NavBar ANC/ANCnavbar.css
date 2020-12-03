@@ -1,14 +1,8 @@
-.header-container {
-  display: flex;
-  flex-direction:row;
-  background-color: #F0F8FF;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  align-items: center;
-  font-family: Aleo, sans-serif;
 
+html, body {
+margin:0;
+
+padding:0;
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -22,8 +16,27 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .title-page {
-  margin-left: 2rem;
+  position: absolute;
+  top:2.5rem;
+  margin-left: 7rem;
+
 }
+
+.first-logo {
+  position:absolute;
+  top:1rem;
+  margin-left:.5rem;
+}
+
+.bck-img {
+  display:flex;
+  justify-content:center;
+  
+  margin-top:50px;
+  padding:0;
+  
+}
+
 
 .navigation-container {
   display:flex;
@@ -31,7 +44,6 @@ button, input[type="submit"], input[type="reset"] {
   justify-content: flex-end;
   
 }
-
 
 .home {
   margin-left: 4rem;
@@ -113,3 +125,16 @@ button, input[type="submit"], input[type="reset"] {
   border-color:#C6E3FF;
   padding: 7px;
 }
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+@media only screen and (max-width: 1300px) {
+  .navigation-container {
+    width: 100%;
+    padding-top:40px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
